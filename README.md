@@ -33,16 +33,18 @@
 <br />
 **Style**<br />
     In Vuetify2, stylus was replaced with sass, so make sure to correct thses paths:<br />
+    ```
         '~vuetify/src/styles/settings/_variables.scss'<br />
-        '~vuetify/src/styles/styles.sass'<br />  <br />
-    
+        '~vuetify/src/styles/styles.sass'
+    ```
+    <br />  <br />
      In order to override default vuetify sass varialbles, it is required to declare them above the initial   
      <br />
      
      style import as well as assigning them to the desired elements. consider main.scss in ~/assets/sass 
    <br />
         ```
-         $body-font-family : 'arbitraryFont' !important;
+        $body-font-family : 'arbitraryFont' !important;
             html,
             body,
             .v-application,
