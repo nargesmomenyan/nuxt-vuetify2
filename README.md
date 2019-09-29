@@ -38,16 +38,9 @@
     ```
         '~vuetify/src/styles/settings/_variables.scss'
         '~vuetify/src/styles/styles.sass'
-    ```
-    
-<br />  
-
+    ```<br />
     2. In order to override default vuetify sass varialbles, it is required to declare them above the initial  
-<br />
-     style import as well as assigning them to the desired elements. consider main.scss in ~/assets/sass 
-
-<br />
-
+<br />style import as well as assigning them to the desired elements. consider main.scss in ~/assets/sass<br />
 add main.scss in nuxt.config.ts as well:<br />
       ``` 
         vuetify: {
