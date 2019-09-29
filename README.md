@@ -40,7 +40,7 @@
         '~vuetify/src/styles/styles.sass'
   
     
-    <br />  
+<br />  
 
      2. In order to override default vuetify sass varialbles, it is required to declare them above the initial  
         <br />
