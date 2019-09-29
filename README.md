@@ -34,7 +34,7 @@
 **Style**<br />
     In Vuetify2, stylus was replaced with sass, so make sure to correct thses paths:<br />
     ```
-        '~vuetify/src/styles/settings/_variables.scss'<br />
+        '~vuetify/src/styles/settings/_variables.scss'
         '~vuetify/src/styles/styles.sass'
     ```
     <br />  <br />
