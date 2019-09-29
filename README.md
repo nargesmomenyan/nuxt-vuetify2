@@ -31,7 +31,9 @@
     5. change components according to: https://vuetifyjs.com/en/getting-started/releases-and-migrations<br />
 
 <br />
-**Style**<br />
+
+**Style**
+
     In Vuetify2, stylus was replaced with sass, so make sure to correct thses paths:<br />
   
         ~vuetify/src/styles/settings/_variables.scss
@@ -42,7 +44,22 @@
         <br />
      style import as well as assigning them to the desired elements. consider main.scss in ~/assets/sass 
 
-    
+        ```
+        $body-font-family : 'arbitraryFont' !important;
+            html,
+            body,
+            .v-application,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+            font-family: $body-font-family;
+            }
+
+            @import '~vuetify/src/styles/styles.sass';
+        ```
 <br />
 
 add main.scss in nuxt.config.ts as well:<br />
