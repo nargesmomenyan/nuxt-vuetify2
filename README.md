@@ -35,10 +35,10 @@
 
 **Style:**<br />
     1. In Vuetify2, stylus was replaced with sass, so make sure to correct thses paths:  <br />
-   ``` 
+ 
         '~vuetify/src/styles/settings/_variables.scss'
         '~vuetify/src/styles/styles.sass'
-    ```
+  
     
     <br />  
 
@@ -49,13 +49,13 @@
 <br />
 
 add main.scss in nuxt.config.ts as well:<br />
-        ```
+      ``` 
         vuetify: {
             customVariables: ['@/assets/sass/_variables.scss',
             '@/assets/sass/app.scss'],
-        },
-        ```
-        <br />
+        }
+    ```
+<br />
 
 <br /><br />
 
