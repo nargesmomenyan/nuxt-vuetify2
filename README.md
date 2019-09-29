@@ -1,22 +1,49 @@
-# nuxt-vuetify
+# Migrate Nuxt to Vuetify2
 
-> My awesome Nuxt.js project
+**Uninstall:**<br />
+    1. npm uninstall --save node-sass  <br /> 
+    2. npm uninstall --save sass-loader  <br /> 
+    3. remove everthing related to vuetify in package.json and nuxt.config  <br />
+    4. remove (package/yarn-lock.json)  <br />
+    5. remove node_modules  <br />
 
-## Build Setup
+**Install:**       
+    1. npm install --dev @nuxtjs/vuetify  <br />
+        after this, sass-loader version 8 should be added in package/yarn-lock.json  <br />
+        * *more info on https://www.npmjs.com/package/@nuxtjs/vuetify* <br />
+    2. reinstall everything: npm install <br /> 
+    3. If you're using TypeScript, you'll need to add @nuxtjs/vuetify in your compilerOptions of your tsconfig.json <br />
+        ```
+            {
+                "compilerOptions": {
+                    "types": [
+                    "@types/node",
+                    "@nuxt/vue-app",
+                    "@nuxtjs/vuetify"
+                    ]
+                }
+            }
+        ```<br />
+    4. add @nuxtjs/vuetify to nuxt.config <br />
+        ```
+            buildModules: ['@nuxtjs/vuetify']
+        ```<br />
+    5. change components according to: https://vuetifyjs.com/en/getting-started/releases-and-migrations<br />
 
-``` bash
-# install dependencies
-$ yarn install
+<br />
+**Style**<br />
+    In Vuetify2, stylus was replaced with sass, so make sure to correct thses paths:<br />
+        '~vuetify/src/styles/settings/_variables.scss'<br />
+        '~vuetify/src/styles/styles.sass'<br />
+    
+    In order to use custom varialble add this to nuxt.config.ts<br />
+        ```
+        vuetify: {
+            customVariables: ['@/assets/sass/_variables.scss',
+            '@/assets/sass/app.scss'],
+        },
+        ```<br />
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+<br /><br />
 
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+*feel free to ask your questions in the vuetify relase-migration channel on https://discordapp.com*<br />

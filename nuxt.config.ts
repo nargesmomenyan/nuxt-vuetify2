@@ -2,6 +2,9 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   mode: 'spa',
+  env: {
+    NODE_ENV: 'dev'
+  },
   /*
   ** Headers of the page
   */
@@ -22,37 +25,20 @@ export default {
   */
   loading: { color: '#fff' },
   styleResources: {
-    scss: ['@/assets/sass/variables.scss']
-  },  
+    // scss: ['@/assets/sass/variables.scss']
+  },
   css: [
-    '@/assets/sass/_variables.scss', 
-    // '@/assets/sass/app.sass',
-    '@/assets/sass/main.scss',
-    '@/assets/sass/form.scss',
-    '@/assets/sass/external-grid.scss',
-    'animate.css/animate.css',
+    "@/assets/sass/main.scss",
+    "@/assets/sass/vrwebdesign-main.scss"
   ],
   vuetify: {
-    customVariables: [ '@/assets/sass/app.sass'],
-    theme: {
-      dark: true,
-      themes: {
-        dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3
-        }
-      }
-    }
+    customVariables: ['@/assets/sass/variables.scss'],
   },
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/vuetify.js'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -64,7 +50,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-'@nuxtjs/style-resources',
+    '@nuxtjs/style-resources',
   ],
   /*
   ** vuetify module configuration
@@ -75,10 +61,16 @@ export default {
   ** Build configuration
   */
   build: {
+    loaders: {
+      sass: {
+        import: ['~@/assets/sass/main.scss']
+      }
+    },
+
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
     }
   }
 }

@@ -9,7 +9,6 @@
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate"
-  
   },
   "dependencies": {
     "@nuxt/types": "^0.2.15",
