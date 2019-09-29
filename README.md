@@ -1,6 +1,7 @@
 # Migrate Nuxt to Vuetify2
 
-**Uninstall:**<br />
+**Uninstall:**
+<br />
     1. npm uninstall --save node-sass  <br /> 
     2. npm uninstall --save sass-loader  <br /> 
     3. remove everthing related to vuetify in package.json and nuxt.config  <br />
@@ -32,15 +33,17 @@
 
 <br />
 
-**Style**
+**a:**
+    1. In Vuetify2, stylus was replaced with sass, so make sure to correct thses paths:  <br />
+   ```
+ 
+        '~vuetify/src/styles/settings/_variables.scss'
+        '~vuetify/src/styles/styles.sass'
+    ```
+    
+    <br />  
 
-    In Vuetify2, stylus was replaced with sass, so make sure to correct thses paths:<br />
-  
-        ~vuetify/src/styles/settings/_variables.scss
-        ~vuetify/src/styles/styles.sass
-
-    <br />  <br />
-     In order to override default vuetify sass varialbles, it is required to declare them above the initial  
+     2. In order to override default vuetify sass varialbles, it is required to declare them above the initial  
         <br />
      style import as well as assigning them to the desired elements. consider main.scss in ~/assets/sass 
 
@@ -68,7 +71,8 @@ add main.scss in nuxt.config.ts as well:<br />
             customVariables: ['@/assets/sass/_variables.scss',
             '@/assets/sass/app.scss'],
         },
-        ```<br />
+        ```
+        <br />
 
 <br /><br />
 
