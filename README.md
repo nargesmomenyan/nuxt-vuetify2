@@ -8,7 +8,7 @@
     4. remove (package/yarn-lock.json)  <br />
     5. remove node_modules  <br />
 
-**Install:**       
+**Install:** <br />      
     1. npm install --dev @nuxtjs/vuetify  <br />
         after this, sass-loader version 8 should be added in package/yarn-lock.json  <br />
         * *more info on https://www.npmjs.com/package/@nuxtjs/vuetify* <br />
@@ -33,13 +33,13 @@
 
 <br />
 
-**a:**
+**Style:**<br />
     1. In Vuetify2, stylus was replaced with sass, so make sure to correct thses paths:  <br />
-   ```
+   `
  
         '~vuetify/src/styles/settings/_variables.scss'
         '~vuetify/src/styles/styles.sass'
-    ```
+    `
     
     <br />  
 
@@ -48,7 +48,7 @@
      style import as well as assigning them to the desired elements. consider main.scss in ~/assets/sass 
 
         ```
-        $body-font-family : 'arbitraryFont' !important;
+                $body-font-family : 'arbitraryFont' !important;
             html,
             body,
             .v-application,
