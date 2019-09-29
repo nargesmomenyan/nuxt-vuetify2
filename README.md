@@ -36,7 +36,27 @@
         '~vuetify/src/styles/settings/_variables.scss'<br />
         '~vuetify/src/styles/styles.sass'<br />
     
-    In order to use custom varialble add this to nuxt.config.ts<br />
+     In order to override default vuetify sass varialbles, it is required to declare them above the initial style import as well as assigning them to the desired elements. consider main.scss in ~/assets/sass 
+   <br />
+        ```
+         $body-font-family : 'arbitraryFont' !important;
+            html,
+            body,
+            .v-application,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+            font-family: $body-font-family;
+            }
+
+            @import '~vuetify/src/styles/styles.sass';
+        ```
+<br />
+
+add main.scss in nuxt.config.ts as well:<br />
         ```
         vuetify: {
             customVariables: ['@/assets/sass/_variables.scss',
@@ -46,4 +66,5 @@
 
 <br /><br />
 
-*feel free to ask your questions in the vuetify relase-migration channel on https://discordapp.com*<br />
+*feel free to ask your questions in the vuetify relase-migration channel on https://discordapp.com*
+<br />
