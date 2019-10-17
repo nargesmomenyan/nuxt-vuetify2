@@ -1,0 +1,8 @@
+$bnarm_font_src: "~assets/fonts/BNarm";
+
+@font-face {
+  font-family: BNarm;
+  font-style: normal;
+  font-weight: 300;
+  src: url($bnarm_font_src+"/BNarm.ttf");
+}

@@ -1,0 +1,171 @@
+$yekan_font_src:'~assets/fonts/IRANYekan';
+// @font-face {
+//     font-family: 'Yekan';
+//     src: url($yekan_font_src+'/IRANYekan.eot');
+//     src: url($yekan_font_src+'/IRANYekan.eot?#iefix') format("embedded-opentype"),
+//     url($yekan_font_src+'/IRANYekan.woff2') format('woff2'),
+//     url($yekan_font_src+'/IRANYekan.woff') format('woff'),
+//     url($yekan_font_src+'/IRANYekan.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: bold;
+	src: url($yekan_font_src+'/eot/iranyekanwebbold.eot');
+	src: url($yekan_font_src+'/eot/iranyekanwebbold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url($yekan_font_src+'/woff/iranyekanwebbold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url($yekan_font_src+'/ttf/iranyekanwebbold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 100;
+	src: url($yekan_font_src+'/eot/iranyekanwebthin.eot');
+	src: url($yekan_font_src+'/eot/iranyekanwebthin.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url($yekan_font_src+'/woff/iranyekanwebthin.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url($yekan_font_src+'/ttf/iranyekanwebthin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 300;
+	src: url($yekan_font_src+'/eot/iranyekanweblight.eot');
+	src: url($yekan_font_src+'/eot/iranyekanweblight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url($yekan_font_src+'/woff/iranyekanweblight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url($yekan_font_src+'/ttf/iranyekanweblight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: normal;
+	src: url($yekan_font_src+'/eot/iranyekanwebregular.eot');
+	src: url($yekan_font_src+'/eot/iranyekanwebregular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url($yekan_font_src+'/woff/iranyekanwebregular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url($yekan_font_src+'/ttf/iranyekanwebregular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 500;
+	src: url($yekan_font_src+'/eot/iranyekanwebmedium.eot');
+	src: url($yekan_font_src+'/eot/iranyekanwebmedium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url($yekan_font_src+'/woff/iranyekanwebmedium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url($yekan_font_src+'/ttf/iranyekanwebmedium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 800;
+	src: url($yekan_font_src+'/eot/iranyekanwebextrabold.eot');
+	src: url($yekan_font_src+'/eot/iranyekanwebextrabold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url($yekan_font_src+'/woff/iranyekanwebextrabold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url($yekan_font_src+'/ttf/iranyekanwebextrabold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 900;
+	src: url($yekan_font_src+'/eot/iranyekanwebblack.eot');
+	src: url($yekan_font_src+'/eot/iranyekanwebblack.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url($yekan_font_src+'/woff/iranyekanwebblack.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url($yekan_font_src+'/ttf/iranyekanwebblack.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 950;
+	src: url($yekan_font_src+'/eot/iranyekanwebextrablack.eot');
+	src: url($yekan_font_src+'/eot/iranyekanwebextrablack.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url($yekan_font_src+'/woff/iranyekanwebextrablack.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url($yekan_font_src+'/ttf/iranyekanwebextrablack.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: bold;
+	src: url($yekan_font_src+'/eot/iranyekanwebboldfanum.eot');
+	src: url($yekan_font_src+'/eot/iranyekanwebboldfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url($yekan_font_src+'/woff/iranyekanwebboldfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url($yekan_font_src+'/ttf/iranyekanwebboldfanum.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 100;
+	src: url($yekan_font_src+'/eot/iranyekanwebthinfanum.eot');
+	src: url($yekan_font_src+'/eot/iranyekanwebthinfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url($yekan_font_src+'/woff/iranyekanwebthinfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url($yekan_font_src+'/ttf/iranyekanwebthinfanum.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 300;
+	src: url($yekan_font_src+'/eot/iranyekanweblightfanum.eot');
+	src: url($yekan_font_src+'/eot/iranyekanweblightfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url($yekan_font_src+'/woff/iranyekanweblightfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url($yekan_font_src+'/ttf/iranyekanweblightfanum.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: normal;
+	src: url($yekan_font_src+'/eot/iranyekanwebregularfanum.eot');
+	src: url($yekan_font_src+'/eot/iranyekanwebregularfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url($yekan_font_src+'/woff/iranyekanwebregularfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url($yekan_font_src+'/ttf/iranyekanwebregularfanum.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 500;
+	src: url($yekan_font_src+'/eot/iranyekanwebmediumfanum.eot');
+	src: url($yekan_font_src+'/eot/iranyekanwebmediumfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url($yekan_font_src+'/woff/iranyekanwebmediumfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url($yekan_font_src+'/ttf/iranyekanwebmediumfanum.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 800;
+	src: url($yekan_font_src+'/eot/iranyekanwebextraboldfanum.eot');
+	src: url($yekan_font_src+'/eot/iranyekanwebextraboldfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url($yekan_font_src+'/woff/iranyekanwebextraboldfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url($yekan_font_src+'/ttf/iranyekanwebextraboldfanum.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 900;
+	src: url($yekan_font_src+'/eot/iranyekanwebblackfanum.eot');
+	src: url($yekan_font_src+'/eot/iranyekanwebblackfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url($yekan_font_src+'/woff/iranyekanwebblackfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url($yekan_font_src+'/ttf/iranyekanwebblackfanum.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 950;
+	src: url($yekan_font_src+'/eot/iranyekanwebextrablackfanum.eot');
+	src: url($yekan_font_src+'/eot/iranyekanwebextrablackfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url($yekan_font_src+'/woff/iranyekanwebextrablackfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url($yekan_font_src+'/ttf/iranyekanwebextrablackfanum.ttf') format('truetype');
+}

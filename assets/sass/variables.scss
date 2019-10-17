@@ -1,3 +1,6 @@
+@import 'responsiveStyle';
 
-@require '~vuetify/src/styles/settings/_variables.scss';
-@require '~vuetify/src/styles/styles.sass';
+$bg-color: white;
+$primary-color: #1caefa;
+$secondary-color: blue;
+$flaticon-font-path: '~assets/fonts/Flaticon';

@@ -25,14 +25,17 @@ export default {
   */
   loading: { color: '#fff' },
   styleResources: {
-    // scss: ['@/assets/sass/variables.scss']
+    scss: ['@/assets/sass/variables.scss']
   },
   css: [
-    "@/assets/sass/main.scss",
-    "@/assets/sass/vrwebdesign-main.scss"
+    '@/assets/sass/external-grid.scss',
+    '@/assets/sass/vrwebdesign-main.scss',
+    'animate.css/animate.css',
+    '@/assets/sass/main.scss',
   ],
   vuetify: {
-    customVariables: ['@/assets/sass/variables.scss'],
+    customVariables: ['@/assets/sass/_variables.scss',
+      '@/assets/sass/app.scss'],
   },
   /*
   ** Plugins to load before mounting the App
@@ -51,7 +54,7 @@ export default {
   */
   modules: [
     '@nuxtjs/style-resources',
-    '~/modules/nuxt-form-generator'
+    '~/modules/nuxt-date-picker'
   ],
   /*
   ** vuetify module configuration
