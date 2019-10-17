@@ -51,6 +51,7 @@ export default {
   */
   modules: [
     '@nuxtjs/style-resources',
+    '~/modules/nuxt-form-generator'
   ],
   /*
   ** vuetify module configuration
@@ -61,11 +62,7 @@ export default {
   ** Build configuration
   */
   build: {
-    loaders: {
-      sass: {
-        import: ['~@/assets/sass/main.scss']
-      }
-    },
+
 
     /*
     ** You can extend webpack config here
