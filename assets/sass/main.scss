@@ -1,11 +1,16 @@
 @import "fonts/iranyekan";
 @import "fonts/iransans";
 
+$bg-color: white;
+$primary-color: #1caefa;
+$secondary-color: blue;
+$flaticon-font-path: '~assets/fonts/Flaticon';
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-  -webkit-box-shadow: 0 0 0 30px $bg-color inset !important;
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
 }
 .application {
   background: $bg-color !important;

@@ -34,8 +34,7 @@ export default {
     '@/assets/sass/main.scss',
   ],
   vuetify: {
-    customVariables: ['@/assets/sass/_variables.scss',
-      '@/assets/sass/app.scss'],
+    customVariables: ['@/assets/sass/_variables.scss'],
   },
   /*
   ** Plugins to load before mounting the App
