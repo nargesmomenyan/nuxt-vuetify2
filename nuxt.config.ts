@@ -53,8 +53,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/style-resources',
-    '~/modules/nuxt-date-picker'
+    '@nuxtjs/style-resources'
   ],
   /*
   ** vuetify module configuration
