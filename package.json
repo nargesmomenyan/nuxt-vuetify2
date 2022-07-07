@@ -31,7 +31,7 @@
     "lodash-es": "^4.17.15",
     "lodash.debounce": "^4.0.8",
     "material-icons": "^0.3.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "moment-jalaali": "^0.8.3",
     "nuxt": "^2.4.0",
     "nuxt-sass-resources-loader": "^2.0.5",
