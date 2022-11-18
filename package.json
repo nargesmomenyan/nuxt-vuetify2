@@ -33,7 +33,7 @@
     "material-icons": "^0.3.1",
     "moment": "^2.24.0",
     "moment-jalaali": "^0.8.3",
-    "nuxt": "^2.4.0",
+    "nuxt": "^2.15.8",
     "nuxt-sass-resources-loader": "^2.0.5",
     "nuxt-start": "^2.8.1",
     "perfect-scrollbar": "^1.4.0",
